@@ -1,0 +1,7 @@
+:root {
+    --color-principal: #2B2D42; /* Para títulos y texto importante */
+    --color-secundario: #8D99AE; /* Para texto del cuerpo y descripciones */
+    --color-detalles: #D90429; /* Para botones y elementos de acento */
+    --color-background: linear-gradient(to right, #FDFDFD, #FFFAF0);
+    --fuente-principal: "Montserrat";
+}
