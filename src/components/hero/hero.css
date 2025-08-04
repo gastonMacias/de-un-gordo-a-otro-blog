@@ -1,0 +1,32 @@
+.hero__header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100dvh;
+    background: var(--color-background)
+}
+
+.hero__h1 {
+    text-transform: uppercase;
+    font-family: var(--fuente-principal);
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 5rem 0;
+    color: var(--color-principal);
+    text-align: center;
+}
+
+.hero__enfasis {
+    font-size: 4.3rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    color: var(--color-detalles);
+}
+
+.hero__sub-titulo {
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: var(--fuente-principal);
+    color: var(--color-secundario);
+    text-align: center;
+}
