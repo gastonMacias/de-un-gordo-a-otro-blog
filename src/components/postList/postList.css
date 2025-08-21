@@ -1,0 +1,18 @@
+.postList__container {
+    max-width: 1200px;
+    /* Limita el ancho máximo del contenido */
+    margin: 0 auto;
+    /* Centra el contenedor en la página */
+    padding: 2rem 1rem;
+    /* Espacio para los costados */
+}
+
+.postList {
+    padding: 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+            minmax(300px,
+                1fr));
+    gap: 2rem 0.5rem;
+    margin: 0 auto;
+}
